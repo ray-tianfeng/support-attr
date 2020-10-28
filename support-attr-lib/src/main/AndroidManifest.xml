@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zlong.attach_attr_lib">
+
+    <application>
+        <provider
+            android:name="com.zlong.attach_attr_lib.InitProvider"
+            android:authorities="${applicationId}.attach-attr-init-provider"
+            android:exported="false"
+            android:multiprocess="true" />
+    </application>
+</manifest>

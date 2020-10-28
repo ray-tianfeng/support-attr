@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="attach_attr">
+        <attr name="shape_solid" format="color|reference"/>
+        <attr name="shape_type" format="enum">
+            <enum name="OVAL" value="1" />
+            <enum name="RECTANGLE" value="2" />
+            <enum name="LINE" value="3" />
+            <enum name="RING" value="4" />
+        </attr>
+        <attr name="shape_corners" format="dimension"/>
+        <attr name="shape_corners_lt" format="dimension"/>
+        <attr name="shape_corners_rt" format="dimension"/>
+        <attr name="shape_corners_lb" format="dimension"/>
+        <attr name="shape_corners_rb" format="dimension"/>
+        <attr name="shape_stroke_width" format="dimension"/>
+        <attr name="shape_stroke_dashWidth" format="dimension"/>
+        <attr name="shape_stroke_color" format="color|reference"/>
+        <attr name="shape_stroke_dashGap" format="dimension"/>
+        
+        <attr name="selector_state" format="flags">
+            <flag name="STATE_PRESSED" value="0x30" />
+            <flag name="STATE_CHECKED" value="0x50" />
+            <flag name="STATE_SELECTED" value="0x03" />
+            <flag name="STATE_CHECKABLE" value="0x05" />
+        </attr>
+        <attr name="selector_nor" format="color|reference"/>
+        <attr name="selector_ste" format="color|reference"/>
+    </declare-styleable>
+</resources>

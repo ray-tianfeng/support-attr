@@ -1,0 +1,3 @@
+include ':support-attr-lib'
+include ':demo'
+rootProject.name = "support-attr"
